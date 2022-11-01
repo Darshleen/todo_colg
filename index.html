@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>To-do list</title>
+</head>
+
+<body>
+    <header class="my-day">
+        <div class="head">
+            <h1>My Day</h1>
+            <p id="myId"></p>
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-lightbulb"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+        </div>
+    </header>
+    <div class="to-do-cont">
+        <ul class="todo-list"></ul>
+    </div>    
+    <section class="box-cont">
+        <div class="box">
+            <img src="./images/Vexels-Office-Calendar.svg" alt="">
+            <h2>Focus on your day</h2>
+            <h5>Get things done with My Day, a list that <br>refreshes every day.</h5>
+        </div>
+    </section>
+    <section class="input">
+        <div class="input_box">
+            <form>
+                <button type="submit" class="to_butt">
+                    <i class="fas fa-plus-square"></i>
+                </button>
+                <input type="input" class="to_in" placeholder="Add a task">
+            </form>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+
+</html>
